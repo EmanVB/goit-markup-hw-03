@@ -8,6 +8,13 @@ body {
     margin: 0;
     padding:0%;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.link-items {
+    display: flex;
+}
 .header-link {
     text-decoration: none;
     font-size: 18px;
@@ -38,7 +45,6 @@ body {
     line-height: 1.5;
     list-style-type: none;
     text-decoration: none;
-    list-style-type: none;
 }
 .link-items .links:hover,
 .link-items .links:focus {
@@ -47,9 +53,15 @@ body {
 .link-items .links:active {
     color: red;
 }
-.contacts {
+.links {
+    color: var(--default-color);
+    list-style-type: none;
+    text-decoration: none;
+}
+.contacts{
     padding-inline-start: 0px;
     margin: 0;
+    list-style-type: none;
 }
 .contacts-item .links {
     text-decoration: none;
@@ -63,9 +75,7 @@ body {
 .contacts .links:active {
     color: red;
 }
-.links {
-    text-decoration: none;
-    color: var(--default-color);
+
 }
 .service-offer {
     background-color: #2E2F42;
