@@ -1,0 +1,156 @@
+:root {
+    --default-color: #2E2F42;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--default-color);
+    margin: 0;
+    padding:0%;
+}
+.header-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+    color: var(--default-color);
+}
+.header-link span {
+    color: #4D5AE5;
+}
+.header-link:hover,
+.header-link:active {
+    background-color: red;
+    color: yellowgreen;
+}
+.order:hover,
+.order:active {
+    background-color: red;
+    color: yellowgreen;
+    cursor: pointer;
+}
+.link-items {
+    padding-inline-start: 0px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    list-style-type: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+.link-items .links:hover,
+.link-items .links:focus {
+    color: orange;
+}
+.link-items .links:active {
+    color: red;
+}
+.contacts {
+    padding-inline-start: 0px;
+    margin: 0;
+}
+.contacts-item .links {
+    text-decoration: none;
+    list-style-type: none;
+    color: #434455;
+}
+.contacts .links:hover,
+.contacts .links:focus {
+    color: orange;
+}
+.contacts .links:active {
+    color: red;
+}
+.links {
+    text-decoration: none;
+    color: var(--default-color);
+}
+.service-offer {
+    background-color: #2E2F42;
+}
+.service-promise {
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.order {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+}
+.key-behaviors-list {
+    padding-inline-start: 0px;
+    margin: 0;
+    list-style-type: none;
+}
+.key-behaviors-header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.key-behaviors-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.services-header {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1;
+    text-align: center;
+}
+.service-images {
+    padding-inline-start: 0px;
+    margin: 0;
+    list-style-type: none;
+}
+.team-header {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1;
+    text-align: center;
+}
+.team-list {
+    padding-inline-start: 0px;
+    margin: 0;
+    list-style-type: none;
+}.team-member {
+    font-size: 20px;
+    font-weight: 500;
+}
+.team-position {
+    color: #434455;
+    font-size: 16px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+}
+.footer-link span{
+    color: #4D5AE5;
+}
+.offer {
+    color: white;
+    font-size: 16px;
+} 
+footer {
+    background-color: #2E2F42;
+}
+footer .footer-link:hover,
+footer .footer-link:active{
+    background-color: red;
+    color: yellowgreen;
+}
