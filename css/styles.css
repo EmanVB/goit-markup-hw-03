@@ -84,7 +84,10 @@
 .contacts .links:active {
     color: red;
 }
-
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .service-offer {
     background-color: #2E2F42;
     padding-top: 188px;
