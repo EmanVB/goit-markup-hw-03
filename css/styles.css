@@ -1,19 +1,21 @@
 :root {
     --default-color: #2E2F42;
 }
-body {
+.container {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: var(--default-color);
     margin: 0;
     padding:0%;
+    width: 1158px;
 }
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.link-items {
+.header-left {
     display: flex;
+    gap: 76px;
 }
 .header-link {
     text-decoration: none;
@@ -45,6 +47,8 @@ body {
     line-height: 1.5;
     list-style-type: none;
     text-decoration: none;
+    display: flex;
+    gap: 40px;
 }
 .link-items .links:hover,
 .link-items .links:focus {
@@ -63,7 +67,8 @@ body {
     margin: 0;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
 }
 .contacts-item .links {
     text-decoration: none;
