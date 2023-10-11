@@ -98,7 +98,6 @@
     font-weight: 700;
     line-height: 60px;
     text-align: center;
-    text-transform: uppercase;
 }
 .order {
     color: white;
@@ -111,7 +110,7 @@
 
 }
 .key-behaviors {
-    padding: 120px 156px
+    padding: 120px 50px
 }
 .key-behaviors-list {
     padding-inline-start: 0px;
@@ -131,12 +130,17 @@
     font-size: 16px;
     line-height: 1.5;
 }
+.services {
+    padding-bottom: 120px;
+}
 .services-header {
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.1;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .service-images {
     padding-inline-start: 0px;
@@ -147,18 +151,30 @@
     gap: 24px;
     padding-top: 72px;
 }
+.team-members {
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px; 
+}
 .team-header {
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.1;
     text-align: center;
+    margin: 0;
 }
 .team-list {
     padding-inline-start: 0px;
     margin: 0;
     list-style-type: none;
-}.team-member {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 72px;
+    text-align: center;
+}
+.team-member {
     font-size: 20px;
     font-weight: 500;
 }
