@@ -182,7 +182,11 @@
     color: #434455;
     font-size: 16px;
 }
-.footer-link{
+.footer-items {
+    padding-top: 101.5px;
+    padding-left: 156px;
+}
+.footer-link {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -196,9 +200,13 @@
 .offer {
     color: white;
     font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 } 
 footer {
     background-color: #2E2F42;
+    height: 312px;
+    align-items: center;
 }
 footer .footer-link:hover,
 footer .footer-link:active{
